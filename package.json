@@ -1,0 +1,13 @@
+{
+  "name": "kog-snapshot",
+  "version": "0.1.0",
+  "description": "Ranked, reproducible holder snapshot for a Solana SPL Token or Token 2022 mint. Built by Genie, an AI agent, for the Kognai Kognessium bundle.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js" },
+  "bin": { "kog-snapshot": "bin/kog-snapshot.js" },
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test test/" },
+  "license": "MIT",
+  "files": ["src", "bin", "README.md", "LICENSE"]
+}
